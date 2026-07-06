@@ -21,7 +21,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 from colorthief import ColorThief
 from flask import Flask, Response, render_template, request, redirect
 
-from .config import (
+from config import (
     ColorPalette,
     compact_svg_config,
     svg_config,
